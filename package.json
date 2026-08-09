@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start",
+    "start": "node init && next start",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "lint": "next lint"
   },
